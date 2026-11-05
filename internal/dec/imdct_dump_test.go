@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/tx"
-	"github.com/tphakala/go-aac/internal/window"
+	"github.com/Mag1cFall/go-aac/internal/tx"
+	"github.com/Mag1cFall/go-aac/internal/window"
 )
 
 // TestIMDCTDump regenerates tools/cimdct's dump from the same LCG seed and

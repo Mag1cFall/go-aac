@@ -3,8 +3,8 @@
 package psy
 
 import (
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // calcBitDemand computes the frame bit allocation from the bit reservoir.
@@ -56,8 +56,8 @@ func calcPE3gpp(band *band) float32 {
 	band.peConst = 0.0
 	band.activeLines = 0.0
 	if band.energy > band.thr {
-		a := fmath.Log232(band.energy)
-		pe := a - fmath.Log232(band.thr)
+		a, lthr := peLog2(band.energy, band.thr)
+		pe := a - lthr
 		band.activeLines = band.nzLines
 		if pe < psy3gppC1 {
 			pe = float32(pe*psy3gppC3) + psy3gppC2 // no FMA

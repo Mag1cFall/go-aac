@@ -8,7 +8,7 @@ import (
 	"io"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // splitADTSFrames splits a self-framing ADTS stream into complete access units

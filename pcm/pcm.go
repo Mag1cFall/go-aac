@@ -5,7 +5,7 @@ package pcm
 import (
 	"fmt"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // Config controls encoder output. It is a flat struct mirroring go-flac's

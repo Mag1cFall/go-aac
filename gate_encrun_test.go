@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // TestGateEncodeADTS encodes raw interleaved float32 PCM to an ADTS stream

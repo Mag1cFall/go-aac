@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // writeCoefRow emits a tagged int32 row exactly like cdec2's dump_ints.

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // TestWriteADTSArtifact writes out.adts for manual gate checks when

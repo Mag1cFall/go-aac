@@ -5,7 +5,7 @@ package dec
 import (
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // adtsHeaderSize is AV_AAC_ADTS_HEADER_SIZE (libavcodec/adts_parser.h

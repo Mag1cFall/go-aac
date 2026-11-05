@@ -3,9 +3,9 @@
 package coder
 
 import (
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // SearchForQuantizersFast selects scalefactor indices and band codebooks

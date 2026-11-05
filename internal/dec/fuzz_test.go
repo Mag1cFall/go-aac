@@ -5,7 +5,7 @@ package dec
 import (
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // FuzzParseADTS asserts the ADTS header parser never panics and never

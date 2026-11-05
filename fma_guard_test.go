@@ -178,7 +178,7 @@ func buildFMAListing(t *testing.T, goarch, goamd64 string) fmaListing {
 	ctx, cancel := context.WithTimeout(t.Context(), fmaGuardBuildTimeout)
 	defer cancel()
 	cmd := exec.CommandContext(ctx, goBin, "build",
-		"-gcflags=github.com/tphakala/go-aac/...=-S", "./...")
+		"-gcflags=github.com/Mag1cFall/go-aac/...=-S", "./...")
 	env := append(cmd.Environ(),
 		"GOARCH="+goarch, "GOOS=linux", "CGO_ENABLED=0", "GOCACHE="+gocache,
 		"GOFLAGS=", "GOEXPERIMENT=")

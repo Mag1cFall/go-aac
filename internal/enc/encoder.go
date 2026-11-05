@@ -14,14 +14,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/mdct"
-	"github.com/tphakala/go-aac/internal/psy"
-	"github.com/tphakala/go-aac/internal/tables"
-	"github.com/tphakala/go-aac/internal/window"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/mdct"
+	"github.com/Mag1cFall/go-aac/internal/psy"
+	"github.com/Mag1cFall/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/window"
 )
 
 // clipAvoidanceFactor mirrors CLIP_AVOIDANCE_FACTOR (libavcodec/aacenc.h
@@ -219,13 +219,13 @@ func (e *Encoder) Reset(cfg Config) error {
 	}
 
 	// The NMR state is retained unconditionally, so a pooled encoder that
-	// alternates coders does not drop and reallocate ~99 KiB on every switch
+	// alternates coders does not drop and reallocate ~105 KiB on every switch
 	// back to NMR (issue #45). Only the NMR path reads it, so it is zeroed
 	// only there, on every reset that arms that path; a non-NMR reset in
 	// between leaves it dirty but unreachable.
 	if cfg.Coder == CoderNMR {
 		if nmr == nil {
-			nmr = &coder.NMRState{} // ~99 KiB, allocated once (pitfall 12)
+			nmr = &coder.NMRState{} // ~105 KiB, allocated once (pitfall 12)
 		} else {
 			*nmr = coder.NMRState{}
 		}

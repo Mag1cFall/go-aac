@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/enc"
-	"github.com/tphakala/go-aac/internal/oracletest"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // encodeADTSPlanar runs the encoder over planar src and returns an ADTS

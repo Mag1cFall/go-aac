@@ -9,9 +9,9 @@
 package psy
 
 import (
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // Constants for the 3GPP AAC psychoacoustic model.

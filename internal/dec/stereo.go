@@ -2,7 +2,7 @@
 
 package dec
 
-import "github.com/tphakala/go-aac/internal/fdsp"
+import "github.com/Mag1cFall/go-aac/internal/fdsp"
 
 // applyMidSideStereo sum/difference-decodes the dequantized spectra of a
 // channel pair. Mirrors apply_mid_side_stereo (aacdec_dsp_template.c:84-111,

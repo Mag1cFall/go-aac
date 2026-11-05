@@ -7,8 +7,8 @@
 package enc
 
 import (
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // NMR stereo decision constants. Mirror libavcodec/aacenc.c @ d09d5afc3a.

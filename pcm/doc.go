@@ -10,7 +10,7 @@
 // same call shape. The package name deliberately collides with
 // go-flac/pcm; import it with an alias:
 //
-//	import aacpcm "github.com/tphakala/go-aac/pcm"
+//	import aacpcm "github.com/Mag1cFall/go-aac/pcm"
 //
 // # Encoding
 //

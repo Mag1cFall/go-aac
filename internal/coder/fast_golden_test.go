@@ -5,7 +5,7 @@ package coder
 import (
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // newTonalSCE loads the C MDCT coefficients into a 44.1 kHz long-window SCE

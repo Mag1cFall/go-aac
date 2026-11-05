@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // Encoder implements io.WriteCloser, byte-for-byte the go-flac pcm.Encoder

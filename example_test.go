@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // Example_lowLevel encodes planar float32 frames with the low-level

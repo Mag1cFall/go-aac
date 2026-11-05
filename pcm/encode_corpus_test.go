@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
-	"github.com/tphakala/go-aac/internal/oracletest"
+	aac "github.com/Mag1cFall/go-aac"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // corpusWAV locates a corpus recording under GOAAC_CORPUS_DIR, skipping the

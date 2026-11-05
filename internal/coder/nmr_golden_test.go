@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // fixture reader helpers

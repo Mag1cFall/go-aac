@@ -7,8 +7,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
-	"github.com/tphakala/go-aac/internal/oracletest"
+	"github.com/Mag1cFall/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // synthStereoNMR builds a stereo pair exercising the NMR stereo decisions:

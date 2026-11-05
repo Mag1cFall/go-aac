@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	aacpcm "github.com/tphakala/go-aac/pcm"
+	aacpcm "github.com/Mag1cFall/go-aac/pcm"
 )
 
 // countADTSFrames walks the self-framing ADTS stream by its 13-bit frame

@@ -6,9 +6,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/mdct"
-	"github.com/tphakala/go-aac/internal/window"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/mdct"
+	"github.com/Mag1cFall/go-aac/internal/window"
 )
 
 // applyWindowTest mirrors aacenc.c:apply_*_window @ d09d5afc3a for the

@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 // firstFrame returns the first complete ADTS frame of a corpus stream, or nil.

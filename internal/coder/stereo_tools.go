@@ -3,8 +3,8 @@
 package coder
 
 import (
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // Intensity stereo constants. Mirror libavcodec/aacenc_is.c @ d09d5afc3a.

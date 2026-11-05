@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // genPCM16 makes n samples of deterministic 16-bit interleaved test audio.

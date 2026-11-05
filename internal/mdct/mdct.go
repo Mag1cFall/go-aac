@@ -4,7 +4,7 @@ package mdct
 import (
 	"math"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // MDCT computes a forward MDCT with n output coefficients from 2n inputs:

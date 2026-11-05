@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
-	"github.com/tphakala/go-aac/internal/oracletest"
+	aac "github.com/Mag1cFall/go-aac"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // TestCutoffParityVsC proves the Config.Cutoff plumbing end to end: the

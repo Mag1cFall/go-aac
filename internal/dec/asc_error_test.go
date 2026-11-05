@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // buildASC packs a sequence of (width, value) bit fields into an

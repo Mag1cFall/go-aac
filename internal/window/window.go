@@ -7,7 +7,7 @@ package window
 import (
 	"math"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // Computed once at init, like ff_aac_float_common_init

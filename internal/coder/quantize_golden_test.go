@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	gbits "github.com/tphakala/go-aac/internal/bits"
+	gbits "github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 func TestQuantizeAndEncodeBandMatchesC(t *testing.T) {

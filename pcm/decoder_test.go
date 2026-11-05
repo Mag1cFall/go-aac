@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/oracletest"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // decoderTestdata is the package-owned decoder corpus: the ADTS streams plus a

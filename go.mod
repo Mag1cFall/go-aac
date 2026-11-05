@@ -1,4 +1,4 @@
-module github.com/tphakala/go-aac
+module github.com/Mag1cFall/go-aac
 
 go 1.26
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	mbits "math/bits"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/vlc"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/vlc"
 )
 
 // decodeSpectrum decodes spectral_data down to quantized integer

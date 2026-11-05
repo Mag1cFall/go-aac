@@ -5,8 +5,8 @@ package enc
 import (
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // encodeIndividualChannel writes one channel's payload: global gain,

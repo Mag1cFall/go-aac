@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/coder"
 )
 
 // Scratch: per-tool activity stats over an encode, mirroring the C's

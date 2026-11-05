@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // emitFunc is the access-unit callback. It is an alias, so the public

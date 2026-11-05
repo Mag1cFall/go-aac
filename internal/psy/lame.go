@@ -3,16 +3,26 @@
 package psy
 
 import (
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // psyHpFilter applies the 21-tap fs/4 high-pass FIR from LAME to one long
 // block. Mirrors aacpsy.c:psy_hp_filter @ d09d5afc3a. The LAME psy model
 // expects input in the range -32768..32768, hence the output scaling.
-// firbuf must hold blockSizeLong + psyLameFirLen + 13 samples.
+// firbuf must hold blockSizeLong + psyLameFirLen + 13 samples. The SIMD
+// kernel (hpFilterKernel) runs it when available, else psyHpFilterScalar.
 func psyHpFilter(firbuf []float32, hpfsmpl *[blockSizeLong]float32) {
+	if hpFilterKernel(firbuf, hpfsmpl) {
+		return
+	}
+	psyHpFilterScalar(firbuf, hpfsmpl)
+}
+
+// psyHpFilterScalar is the scalar loop of psyHpFilter, the reference the SIMD
+// kernels match bit for bit.
+func psyHpFilterScalar(firbuf []float32, hpfsmpl *[blockSizeLong]float32) {
 	for i := range blockSizeLong {
 		var sum1, sum2 float32
 		sum1 = firbuf[i+(psyLameFirLen-1)/2]

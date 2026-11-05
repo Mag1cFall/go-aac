@@ -5,8 +5,8 @@ package vlc
 import (
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // TestSpectralExhaustive feeds every codeword of every spectral codebook

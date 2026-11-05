@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	aac "github.com/tphakala/go-aac"
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/tables"
+	aac "github.com/Mag1cFall/go-aac"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // findSpectral returns the Huffman code and length for a packed spectral

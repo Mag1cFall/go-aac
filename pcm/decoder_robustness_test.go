@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 // decodeAll decodes an in-memory stream fully, returning the PCM and the

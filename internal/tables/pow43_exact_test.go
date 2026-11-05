@@ -4,7 +4,7 @@ package tables
 import (
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 func TestPow43Exact(t *testing.T) {

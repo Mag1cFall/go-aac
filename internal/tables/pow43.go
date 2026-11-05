@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 package tables
 
-import "github.com/tphakala/go-aac/internal/fmath"
+import "github.com/Mag1cFall/go-aac/internal/fmath"
 
 // Pow43 holds cq^(4/3) for every escape-codebook quantized value cq, which
 // the caller clips to [0, 8191]. Built from the exact expression the scalar

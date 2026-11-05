@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // splitADTSFrames splits a raw ADTS byte stream into its constituent frames.

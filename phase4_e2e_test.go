@@ -8,8 +8,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
-	"github.com/tphakala/go-aac/internal/oracletest"
+	"github.com/Mag1cFall/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // gateCastanetSecs is the length of the Phase 4 gate's castanet pair.

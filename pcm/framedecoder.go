@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 // errNotInitialised reports use of a zero-value FrameDecoder. A FrameDecoder

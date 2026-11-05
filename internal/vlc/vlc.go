@@ -11,8 +11,8 @@
 package vlc
 
 import (
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // rootBits is the first-level table width. All AAC codebooks have maximum

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // resetCfg is one psy model configuration. srIdx must be the MPEG-4 sample-rate

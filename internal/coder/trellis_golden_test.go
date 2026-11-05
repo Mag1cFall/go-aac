@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"testing"
 
-	gbits "github.com/tphakala/go-aac/internal/bits"
+	gbits "github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 func TestCodebookTrellisRateMatchesC(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // Channel-layout labels for the arch corpus golden keys and subtest names.

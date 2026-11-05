@@ -2,7 +2,7 @@
 
 package dec
 
-import "github.com/tphakala/go-aac/internal/bits"
+import "github.com/Mag1cFall/go-aac/internal/bits"
 
 // ADTSHeaderSize is the fixed ADTS header length in bytes
 // (AV_AAC_ADTS_HEADER_SIZE). The streaming framer peeks this many bytes to

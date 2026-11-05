@@ -8,7 +8,7 @@ import (
 	"math"
 	"os"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 func main() {

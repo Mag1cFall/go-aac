@@ -3,8 +3,8 @@
 package dec
 
 import (
-	"github.com/tphakala/go-aac/internal/fdsp"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/fdsp"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // initRandomState is the seed the fixed decoder plants once at init and never

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 var (

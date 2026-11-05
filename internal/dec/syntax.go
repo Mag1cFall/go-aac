@@ -5,9 +5,9 @@ package dec
 import (
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/tables"
-	"github.com/tphakala/go-aac/internal/vlc"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/vlc"
 )
 
 // decodeICSInfo parses ics_info. Mirrors the AAC-LC path of

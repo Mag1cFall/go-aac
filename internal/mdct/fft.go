@@ -8,7 +8,7 @@ package mdct
 import (
 	"math"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // fft is an iterative radix-2 forward DFT (negative exponent) for

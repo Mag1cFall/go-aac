@@ -7,7 +7,7 @@
 // byte-identical output; the scalars stay canonical.
 package dsp
 
-import "github.com/tphakala/go-aac/internal/fmath"
+import "github.com/Mag1cFall/go-aac/internal/fmath"
 
 // Length contract: every kernel here is destination-governed. The destination
 // slice (dst or out) fixes the element count, matching Go's copy convention and

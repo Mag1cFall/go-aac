@@ -5,7 +5,7 @@ package dec
 import (
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // Audio object types the parser distinguishes. Mirror enum AudioObjectType

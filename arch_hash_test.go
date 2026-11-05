@@ -12,7 +12,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // Signal names for the arch-hash corpus, hoisted to constants so the labels

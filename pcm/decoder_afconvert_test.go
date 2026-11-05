@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/oracletest"
+	"github.com/Mag1cFall/go-aac/internal/oracletest"
 )
 
 // writeTestWAV writes a canonical 16-bit PCM WAV of a low-frequency sine to

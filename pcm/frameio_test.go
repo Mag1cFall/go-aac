@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // collectAUs runs pcm through a FrameEncoder in chunks of chunkSize bytes

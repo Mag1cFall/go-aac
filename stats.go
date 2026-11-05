@@ -5,7 +5,7 @@ package aac
 import (
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // Stats reports encoder tool usage, accumulated per encoded frame over the

@@ -3,10 +3,10 @@
 package coder
 
 import (
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // TNS constants. Mirror libavcodec/aac.h and aacenc_tns.c @ d09d5afc3a.

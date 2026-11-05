@@ -3,8 +3,8 @@
 package coder
 
 import (
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // Coef2MinSF returns the minimum scalefactor where the quantized coef does

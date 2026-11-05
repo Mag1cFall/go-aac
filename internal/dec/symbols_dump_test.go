@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/bits"
 )
 
 // dumpSCE formats one decoded channel element exactly like the tools/cdec

@@ -5,8 +5,8 @@ package aac
 import (
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 // TestADTSRoundTrip parses every header the encoder's ADTS writer can emit

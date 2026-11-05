@@ -3,9 +3,9 @@
 package dec
 
 import (
-	"github.com/tphakala/go-aac/internal/fdsp"
-	"github.com/tphakala/go-aac/internal/tx"
-	"github.com/tphakala/go-aac/internal/window"
+	"github.com/Mag1cFall/go-aac/internal/fdsp"
+	"github.com/Mag1cFall/go-aac/internal/tx"
+	"github.com/Mag1cFall/go-aac/internal/window"
 )
 
 // dspState carries the per-decoder IMDCT scratch of AACDecContext:

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	aac "github.com/tphakala/go-aac"
+	aac "github.com/Mag1cFall/go-aac"
 )
 
 // These tests cover the Config.Coder plumbing without the pinned FFmpeg

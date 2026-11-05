@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tphakala/go-aac/internal/enc"
+	"github.com/Mag1cFall/go-aac/internal/enc"
 )
 
 // FrameSize is the number of samples per channel consumed by one

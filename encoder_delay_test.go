@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/dec"
+	"github.com/Mag1cFall/go-aac/internal/dec"
 )
 
 // delayTestSignal builds a deterministic, spectrally rich signal of n samples

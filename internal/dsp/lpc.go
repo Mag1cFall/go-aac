@@ -4,7 +4,7 @@ package dsp
 import (
 	"math"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // MaxLPCOrder mirrors MAX_LPC_ORDER (libavcodec/lpc.h @ d09d5afc3a).

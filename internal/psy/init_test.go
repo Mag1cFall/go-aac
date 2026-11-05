@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // reader walks a little-endian cpsy fixture.

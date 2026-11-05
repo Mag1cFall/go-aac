@@ -5,10 +5,10 @@ package coder
 import (
 	mbits "math/bits"
 
-	"github.com/tphakala/go-aac/internal/bits"
-	"github.com/tphakala/go-aac/internal/dsp"
-	"github.com/tphakala/go-aac/internal/fmath"
-	"github.com/tphakala/go-aac/internal/tables"
+	"github.com/Mag1cFall/go-aac/internal/bits"
+	"github.com/Mag1cFall/go-aac/internal/dsp"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/tables"
 )
 
 // Coder holds the scratch state shared by the quantizer search, the
@@ -167,6 +167,25 @@ func (c *Coder) quantizeAndEncodeBandCost(pb *bits.Writer, in, out, scaled []flo
 	// size <= 96 always (the widest SwbSize1024 entry is 96), so c.qcoefs[:size]
 	// never panics.
 	qcoefs := c.qcoefs[:size]
+	// Cost-only calls (no bitstream, no dequantized output) are the hot path of
+	// the NMR band curves; bandCostKernel evaluates them with SIMD and returns
+	// the same cost, bit count, energy and early exit as the scalar loop below.
+	// Four-coefficient bands stay on the scalar loop, which is faster at that
+	// width.
+	if pb == nil && out == nil && size > 4 {
+		if cost, qenergy, nbits, exited, ok := bandCostKernel(in, qcoefs, sb, cv, rng, off, d, iq, q, rounding, clippedEscape, lambda, uplim); ok {
+			if exited {
+				return uplim
+			}
+			if resBits != nil {
+				*resBits = nbits
+			}
+			if energy != nil {
+				*energy = qenergy
+			}
+			return cost
+		}
+	}
 	// Specialize the coefficient loop by codebook dimension, chosen once by
 	// d.pair (BT_PAIR in the C). dim is 2 for pair codebooks and 4 for quad
 	// codebooks and is constant per call; keeping it a runtime value in the

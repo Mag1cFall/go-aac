@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tphakala/go-aac/internal/coder"
-	"github.com/tphakala/go-aac/internal/mdct"
+	"github.com/Mag1cFall/go-aac/internal/coder"
+	"github.com/Mag1cFall/go-aac/internal/mdct"
 )
 
 // TestEightShortWindowMDCTMatchesC feeds the cquant short fixture's input

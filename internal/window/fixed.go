@@ -5,7 +5,7 @@ package window
 import (
 	"math"
 
-	"github.com/tphakala/go-aac/internal/fmath"
+	"github.com/Mag1cFall/go-aac/internal/fmath"
 )
 
 // Fixed-point (int32) decoder windows, mirroring init_tables_fixed_fn
